@@ -1,0 +1,33 @@
+{
+  "name": "my-personal-web",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.0.1",
+    "@kangc/v-md-editor": "^2.3.12",
+    "ant-design-vue": "^2.2.8",
+    "axios": "^0.24.0",
+    "highlight.js": "^11.3.1",
+    "js-cookie": "^3.0.1",
+    "less": "^4.1.2",
+    "qs": "^6.10.1",
+    "three": "0.134",
+    "troisjs": "^0.3.3",
+    "vue": "^3.2.16",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "eslint": "^8.2.0",
+    "typescript": "^4.4.3",
+    "unplugin-vue-components": "^0.17.2",
+    "vite": "^2.6.4",
+    "vue-tsc": "^0.3.0"
+  }
+}
